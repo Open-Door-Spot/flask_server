@@ -15,7 +15,7 @@ def return_valid_response():
 @app.route("/hello_spot")
 def invoke_hello_spot():
 	print("Hello Spot Command is Triggered")
-	is_resp_valid = hello_spot_main(SPOT_IP_ADDRESS)
+	os.system("arch -arm64 python3 commands/hello_spot.py "+SPOT_IP_ADDRESS)
 	return "its done"
 
 if __name__ == "__main__":
