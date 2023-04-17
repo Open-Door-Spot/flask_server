@@ -6,7 +6,7 @@ from commands.hello_spot import hello_spot_main
 app = Flask("Spot Controller")
 
 # Change this to the correct IP address
-SPOT_IP_ADDRESS = "129.0.0.1"
+SPOT_IP_ADDRESS = "gouger.rlab.cs.brown.edu"
 
 @app.route("/")
 def return_valid_response():
