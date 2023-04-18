@@ -22,4 +22,4 @@ To trigger the Python Spot SDK from triggering a button in VR, follow these step
   
  - Other notes
     - IMP: Undock Spot first if the code involves making Spot sit
-    - If you use the tablet to control Spot, first restart Spot before running the Flask server to claim the Spot lease
+    - If you use the tablet to control Spot, first restart Spot before running the Flask server to claim the Spot lease (OR) click "release control" on the       tablet
