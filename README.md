@@ -7,11 +7,11 @@ To trigger the Python Spot SDK from triggering a button in VR, follow these step
 - Connect to `RLAB` WiFi
 - Run ESTOP:
   - Open rosetta terminal
-  - source `my_spot_env/bin/activate`
-  - cd `~/spot-sdk/python/examples/estop estop`
+  - `source my_spot_env/bin/activate`
+  - `cd ~/spot-sdk/python/examples/estop`
   - `export BOSDYN_CLIENT_USERNAME=user`
   - `export BOSDYN_CLIENT_PASSWORD=bigxxxxxxxxxxxba`
-  - `arch -arm64 python3 estop_nogui.py`
+  - `arch -arm64 python3 estop_nogui.py <IP_ADDRESS>`
 
 - In a new terminal, run the flask server
   - Depending on which Spot we are using, change the IP address on the server
