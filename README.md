@@ -18,7 +18,7 @@ To trigger the Python Spot SDK from triggering a button in VR, follow these step
   - `source my_spot_env/bin/activate`
   - `export BOSDYN_CLIENT_USERNAME=user`
   - `export BOSDYN_CLIENT_PASSWORD=bigxxxxxxxxxxxba`
-  - `arch -arm64 python3 main.py`
+  - `arch -arm64 python3 main.py <IP_ADDRESS>`
   
  - Other notes
     - IMP: Undock Spot first if the code involves making Spot sit
